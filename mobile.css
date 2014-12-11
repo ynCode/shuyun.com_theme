@@ -1,0 +1,165 @@
+@media (max-width: 767px) {
+    html {
+        max-width: 767px;
+    }
+    #w2b-StoTop {
+        display: none;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #branding hgroup {
+        width: 100%;
+    }
+    /*banner*/
+
+    #first {
+        display: none;
+        visibility: hidden;
+    }
+    #flashBg {
+        background-color: transparent!important;
+    }
+    #flash, #flashBg, #flash, #Slidebox, #flashLine {
+        width: 100%!important;
+        height: auto!important;
+        background: #C8C8C8;
+    }
+    #flash a {
+        display: block;
+        width: 100%;
+        background-position: top center;
+    }
+    #Slidebox, #flashline {
+        background: none;
+        max-height: 221px!important;
+    }
+    .flash_bar {
+        display: none;
+    }
+    /*header*/
+
+    #site-title {
+        display: none;
+        visibility: hidden;
+    }
+    .site-right form {
+        display: none;
+    }
+    .site-right b {
+        font-weight: normal;
+    }
+    #branding #searchform {
+        right: 20px;
+    }
+    .site-right {
+        float: none;
+        clear: both;
+        width: 100%;
+        position: static;
+        margin-left: 0;
+        height: 30px;
+    }
+    .site-right ul {
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    /*--moblie nav*/
+
+    #wprmenu_menu.wprmenu_levels a.wprmenu_parent_item, #wprmenu_menu .wprmenu_icon_par, #wprmenu_menu.wprmenu_levels ul li {
+        border: none!important;
+    }
+    /*side-bar*/
+
+    .page .main #secondary {
+        display: none;
+        visibility: hidden;
+    }
+    .widget {
+        margin: 0 auto;
+    }
+    .location, .breadcrumbs, #access div, #branding img {
+        width: 100%;
+    }
+    .widget_nav_menu {
+        display: none;
+        visibility: hidden;
+    }
+    #wprmenu_menu.wprmenu_levels ul li a:first-child {
+        margin-left: 45px;
+    }
+    /*footer*/
+
+    .foot_right {
+        display: none;
+    }
+    .foot_left {
+        text-align: center;
+        width: 100%;
+    }
+    #site-generator {
+        width: 100%;
+    }
+    #cnzz_stat_icon_1000030848 {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+    }
+    .foot_left .fl {
+        float: none;
+    }
+    /*content*/
+
+    .singular .entry-title {
+        font-size: 1.1em;
+    }
+    #primary.categoryStyle {
+        padding: 0;
+    }
+    .wp-pagenavi .pages {
+        display: none;
+        visibility: hidden;
+    }
+    .entry-content p img {
+        height: auto;
+        width: 100%;
+    }
+    #main {
+        width: 100%;
+    }
+    .wp-pagenavi {
+        text-align: center;
+    }
+    #primary {
+        width: 100%;
+        padding: 0;
+    }
+    .indexFoot .widget-area aside {
+        margin: 0 auto 20px auto;
+        float: none;
+    }
+    /*bread*/
+
+    .locationDiv {
+        height: auto;
+    }
+    /*banner*/
+
+    #flash1 {
+        background: url(banner_mobile/banner4_m.jpg);
+    }
+    #flash2 {
+        background: url(banner_mobile/banner1_m.jpg);
+    }
+    #flash3 {
+        background: url(banner_mobile/banner2_m.jpg);
+    }
+    #flash4 {
+        background: url(banner_mobile/banner3_m.jpg);
+    }
+    #flash5 {
+        background: url(banner_mobile/banner5_m.jpg);
+    }
+}
