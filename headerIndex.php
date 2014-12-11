@@ -49,7 +49,7 @@
 <meta name="baidu-site-verification" content="W4rQZicAc0" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/style.min.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -78,7 +78,7 @@
 <!-- <meta name="viewport" content="width=device-width" /> -->
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
 <!-- mobile style -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mobile.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mobile.min.css">
 </head>
 
 <body <?php body_class(); ?>>
